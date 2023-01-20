@@ -1,0 +1,17 @@
+.original-image input,
+.original-image [contenteditable] {
+}
+
+/* チューンオプションに対応するclassとstyle */
+.original-image.withBorder img {
+    border: 1px solid #e8e8eb;
+}
+.original-image.withBackground{
+    background: #eff2f5;
+    padding: 10px;
+}
+.original-image.withBackground img {
+    display: block;
+    max-width: 60%;
+    margin: 0 auto 15px;
+}
