@@ -14,11 +14,7 @@ class OriginalImage {
 	///////////////////////////////////////
 	// ツールのコンストラクト, ロード値代入
 	///////////////////////////////////////
-	constructor({
-		data,
-		api,
-		config
-	}) {
+	constructor( {data, api, config} ) {
 		this.api = api;
 		this.data = {
 			url: data.url || '',
